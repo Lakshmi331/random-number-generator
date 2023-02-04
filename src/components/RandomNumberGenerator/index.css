@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+}
+
+.sub-container {
+  background-color: #ffffff;
+  border: 1px solid #e4ebf3;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: blue;
+  font-size: 15px;
+  text-align: center;
+}
+
+.para {
+  color: #000000;
+  font-size: 10px;
+}
+
+.generate-button {
+  border-radius: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  padding: 8px;
+}
